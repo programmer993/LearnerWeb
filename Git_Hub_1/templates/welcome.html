@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome - TheLearnerWeb</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        Welcome to TheLearnerWeb
+    </header>
+    <nav>
+        <a href="{{ url_for('index') }}">Home</a>
+        <a href="{{ url_for('resources') }}">Resources</a>
+    </nav>
+    <main>
+        <h2>Choose Your Next Step</h2>
+        <ul>
+            <li><a href="https://www.datacamp.com/" target="_blank">DataCamp - Learn Data Science</a></li>
+            <li><a href="chrome://dino" target="_blank">Dino Game - Fun Offline Game</a></li>
+            <li><a href="https://www.geometrydash.io/" target="_blank">Geometry Dash - Exciting Arcade Game</a></li>
+            <li><a href="https://www.innersloth.com/gameAmongUs.php" target="_blank">Among Us - Popular Multiplayer Game</a></li>
+            <li><a href="https://chat.openai.com/" target="_blank">ChatGPT - AI Conversational Agent</a></li>
+        </ul>
+        <h2>Resources</h2>
+        <ul>
+            <li><a href="https://www.coursera.org" target="_blank">Coursera - Online Courses from Top Universities</a></li>
+            <li><a href="https://www.edx.org" target="_blank">edX - Free Online Courses by Harvard, MIT</a></li>
+            <li><a href="https://www.udacity.com" target="_blank">Udacity - Nanodegree Programs and Courses</a></li>
+            <li><a href="https://www.udemy.com" target="_blank">Udemy - Affordable Courses on Various Topics</a></li>
+            <li><a href="https://www.khanacademy.org" target="_blank">Khan Academy - Free Educational Resources</a></li>
+            <li><a href="https://www.codecademy.com" target="_blank">Codecademy - Learn to Code Interactively</a></li>
+            <li><a href="https://www.pluralsight.com" target="_blank">Pluralsight - Tech Skill Development</a></li>
+            <li><a href="https://www.skillshare.com" target="_blank">Skillshare - Creative and Practical Classes</a></li>
+            <li><a href="https://www.linkedin.com/learning/" target="_blank">LinkedIn Learning - Professional Courses</a></li>
+            <li><a href="https://www.futurelearn.com" target="_blank">FutureLearn - Free Online Courses</a></li>
+            <li><a href="https://www.lynda.com" target="_blank">Lynda - Expert-Led Online Courses</a></li>
+            <li><a href="https://www.simplilearn.com" target="_blank">Simplilearn - Certification Training Courses</a></li>
+            <li><a href="https://www.thegreatcourses.com" target="_blank">The Great Courses - Engaging Video Lectures</a></li>
+            <li><a href="https://www.teamtreehouse.com" target="_blank">Treehouse - Learn Coding and Design</a></li>
+            <li><a href="https://www.academicearth.org" target="_blank">Academic Earth - Free Online College Courses</a></li>
+            <li><a href="https://www.memrise.com" target="_blank">Memrise - Language Learning App</a></li>
+            <li><a href="https://www.masterclass.com" target="_blank">MasterClass - Classes by Experts</a></li>
+            <li><a href="https://www.brainpop.com" target="_blank">BrainPOP - Animated Educational Site</a></li>
+            <li><a href="https://www.education.com" target="_blank">Education.com - Learning Resources for Kids</a></li>
+            <li><a href="https://www.alison.com" target="_blank">Alison - Free Online Courses</a></li>
+            <li><a href="https://www.w3schools.com" target="_blank">W3Schools - Web Development Tutorials</a></li>
+            <li><a href="https://www.sololearn.com" target="_blank">SoloLearn - Learn to Code for Free</a></li>
+            <li><a href="https://www.gcflearnfree.org" target="_blank">GCF Learn Free - Free Learning for Adults</a></li>
+            <li><a href="https://www.edureka.co" target="_blank">Edureka - Online IT and Software Courses</a></li>
+            <li><a href="https://www.udacity.com/school-of-ai" target="_blank">Udacity School of AI - Learn Artificial Intelligence</a></li>
+            <li><a href="https://www.coursera.org/learn/machine-learning" target="_blank">Coursera Machine Learning - Taught by Andrew Ng</a></li>
+            <li><a href="https://www.dataquest.io" target="_blank">Dataquest - Learn Data Science Online</a></li>
+            <li><a href="https://www.educative.io" target="_blank">Educative - Interactive Coding Courses</a></li>
+            <li><a href="https://www.lumosity.com" target="_blank">Lumosity - Brain Training Games</a></li>
+            <li><a href="https://www.babbel.com" target="_blank">Babbel - Learn Languages Online</a></li>
+            <li><a href="https://www.rosettastone.com" target="_blank">Rosetta Stone - Language Learning</a></li>
+            <li><a href="https://www.naturalreaders.com" target="_blank">Natural Readers - Text to Speech</a></li>
+            <li><a href="https://www.notion.so" target="_blank">Notion - Note Taking and Organization</a></li>
+            <li><a href="https://www.ted.com" target="_blank">TED - Ideas Worth Spreading</a></li>
+            <li><a href="https://www.wikipedia.org" target="_blank">Wikipedia - Free Online Encyclopedia</a></li>
+            <li><a href="https://www.open.edu/openlearn" target="_blank">OpenLearn - Free Learning from The Open University</a></li>
+            <li><a href="https://www.springboard.com" target="_blank">Springboard - Online Courses and Mentorship</a></li>
+            <li><a href="https://www.creativelive.com" target="_blank">CreativeLive - Online Creative Classes</a></li>
+            <li><a href="https://www.classcentral.com" target="_blank">Class Central - Free Online Courses Catalog</a></li>
+            <li><a href="https://www.openculture.com" target="_blank">Open Culture - Free Cultural & Educational Media</a></li>
+            <li><a href="https://www.itpro.tv" target="_blank">ITProTV - Online IT Training</a></li>
+            <li><a href="https://www.britannica.com" target="_blank">Encyclopedia Britannica - General Knowledge</a></li>
+            <li><a href="https://www.zooniverse.org" target="_blank">Zooniverse - Participate in Real Research</a></li>
+            <li><a href="https://www.ed.ted.com" target="_blank">TED-Ed - Lessons Worth Sharing</a></li>
+            <li><a href="https://www.funbrain.com" target="_blank">Funbrain - Educational Games for Kids</a></li>
+        </ul>
+    </main>
+</body>
+</html>

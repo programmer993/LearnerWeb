@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - TheLearnerWeb</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        TheLearnerWeb
+    </header>
+    <nav>
+        <a href="{{ url_for('index') }}">Home</a>
+        <a href="{{ url_for('signup') }}">Sign Up</a>
+        <a href="{{ url_for('login') }}">Log In</a>
+    </nav>
+    <main>
+        <h2>Welcome to TheLearnerWeb</h2>
+        <p>Your portal for learning and growth. Please sign up, create an account, or log in to continue.</p>
+        <p>TheLearner Web is your ultimate destination for knowledge and growth. Dive into a world where learning never stops, and curiosity is always rewarded. Join us and become a lifelong learner today!</p>
+    </main>
+</body>
+</html>
